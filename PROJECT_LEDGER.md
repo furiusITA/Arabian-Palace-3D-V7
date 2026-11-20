@@ -82,8 +82,12 @@ Resume by reading this ledger and the master plan. Then inspect the latest modul
 
 - Master architectural plan v01 created and verified in GitHub.
 - Overall layout and coordinate system established.
-- Central keep prototype v01 created as four VOXORA quadrant files: `central_keep_v01_nw.json`, `central_keep_v01_ne.json`, `central_keep_v01_sw.json`, `central_keep_v01_se.json`.
+- Central keep prototype v01 created as four VOXORA quadrant files: `central_keep_v01_nw.json`, `central_keep_v01_ne.json`, `central_keep_v01_sw.json`, `central_keep_v01_se.json` (historical; superseded by v02).
 - Each quadrant contains 21,017 placements; combined global map contains 82,762 unique occupied coordinates and has 0 symmetry lookup failures across X=0 and Z=0.
-- Assembly guide: `central_keep_v01_assembly_guide.md`.
+- Assembly guide: `central_keep_v01_assembly_guide.md` (historical; superseded by v02).
 - GitHub upload and content retrieval succeeded. VOXORA import and visual inspection by the user are still pending; do not mark the prototype visually accepted yet.
-- Next action: user imports the four quadrants and shares screenshots; review all seams, elevations and silhouette, then correct before designing inner towers.
+- Central keep prototype v02 created as four replacement quadrants: `central_keep_v02_nw.json`, `central_keep_v02_ne.json`, `central_keep_v02_sw.json`, `central_keep_v02_se.json`.
+- v02 geometry contains 115,727 unique occupied global block coordinates; 0 symmetry failures; 0 blocks obstructing the north/south gate passages. The dome shoulder and drum are expanded, roof terrace connected, facade pilasters/buttresses/string courses added, and north/south portal openings cut through all wall layers.
+- v02 assembly guide: `central_keep_v02_assembly_guide.md`.
+- GitHub file creation succeeded for all four v02 files. The fetch service returned empty content for these large JSON files, so post-upload content retrieval could not be completed; treat GitHub upload as successful but not independently re-read. VOXORA visual inspection remains pending.
+- Next action: user imports v02 quadrants and shares views; review dome transition, portals, facade rhythm, corner turrets and seams before moving to inner towers.
