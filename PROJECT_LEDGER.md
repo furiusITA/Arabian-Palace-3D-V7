@@ -82,5 +82,8 @@ Resume by reading this ledger and the master plan. Then inspect the latest modul
 
 - Master architectural plan v01 created and verified in GitHub.
 - Overall layout and coordinate system established.
-- No new full-scale central keep prototype has yet been created.
-- Next action: design and validate KEEP-PROTOTYPE-01, then update this ledger before proceeding.
+- Central keep prototype v01 created as four VOXORA quadrant files: `central_keep_v01_nw.json`, `central_keep_v01_ne.json`, `central_keep_v01_sw.json`, `central_keep_v01_se.json`.
+- Each quadrant contains 21,017 placements; combined global map contains 82,762 unique occupied coordinates and has 0 symmetry lookup failures across X=0 and Z=0.
+- Assembly guide: `central_keep_v01_assembly_guide.md`.
+- GitHub upload and content retrieval succeeded. VOXORA import and visual inspection by the user are still pending; do not mark the prototype visually accepted yet.
+- Next action: user imports the four quadrants and shares screenshots; review all seams, elevations and silhouette, then correct before designing inner towers.
